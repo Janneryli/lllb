@@ -1,0 +1,45 @@
+@charset "UTF-8";
+.header-footer {
+  background-color: rgb(181, 204, 230);
+  margin: auto;
+}
+
+.nav {
+  max-width: 1000px;
+  min-width: 500px;
+  margin: auto;
+  background-color: rgb(122, 195, 230);
+}
+.nav .btn {
+  background-color: rgb(79, 141, 218);
+  color: rgb(255, 255, 255);
+}
+.nav .nav-item {
+  display: flex;
+  flex-direction: row;
+}
+.nav .nav-item .logo {
+  width: 40px;
+}
+
+.container {
+  max-width: 1000px !important;
+  min-width: 500px !important;
+}
+.container .btn {
+  font-size: small;
+}
+.container .card::before {
+  content: "Собачк";
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  width: 70px;
+  height: 100px;
+  top: 200px;
+  left: 20px;
+  border-radius: 20px;
+  padding: 7px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=/style.967ba849.css.map */
